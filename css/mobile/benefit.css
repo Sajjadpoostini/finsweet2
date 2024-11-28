@@ -1,0 +1,86 @@
+div.benefit {
+  width: 100%;
+  margin: 0px auto;
+  bottom: 250px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+div.benefit > div.top {
+  width: 100%;
+}
+div.benefit > div.top > h2 {
+  width: 100%;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+  margin: 0px auto;
+  color: #282938;
+}
+div.benefit > div.middel {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+div.benefit > div.middel > div.cart {
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #eef4fa;
+}
+div.benefit > div.middel > div.cart > div.icon {
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 100%;
+
+}
+div.benefit > div.middel > div.cart > div.matn {
+  width: 100%;
+}
+div.benefit > div.middel > div.cart > div.matn > h6 {
+  margin-top: 30px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #282938;
+}
+div.benefit > div.middel > div.cart > div.matn > p {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+}
+div.benefit > div.buttem {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.benefit > div.buttem > div.left {
+  margin-top: 40px;
+  width: 20%;
+}
+div.benefit > div.buttem > div.left > p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+}
+div.benefit > div.buttem > div.right {
+  width: 100%;
+  margin-top: 50px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+

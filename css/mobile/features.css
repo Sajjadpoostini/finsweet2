@@ -1,0 +1,69 @@
+div.FEATURES {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 57%, 97%);
+  margin-top: 300px;
+}
+div.FEATURES > div.header {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+div.FEATURES > div.header > p.he {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #282938;
+}
+div.FEATURES > div.header > h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+}
+div.FEATURES > div.about {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: start;
+  gap: 20px;
+  width: 85%;
+  height: auto;
+  margin-top: 50px;
+}
+div.FEATURES > div.about > div.carts {
+  background-color: white;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+div.FEATURES > div.about > div.carts > h6 {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #282938;
+}
+div.FEATURES > div.about > div.carts > div.pabout {
+  margin-top: 20px;
+  width: 94%;
+}
+
+div.FEATURES > div.about > div.carts > div.pabout > p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(158, 155, 155);
+}

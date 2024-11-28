@@ -1,0 +1,79 @@
+header {
+  width: 100%;
+  padding: 16px 160px;
+  box-sizing: border-box;
+  background-color: #1c1e53;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+header > div.left {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+header > div.right {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  gap: 18px;
+}
+header > div.right > div.menu {
+  width: 80%;
+  height: 100%;
+}
+header > div.right > div.menu > nav {
+  width: 100%;
+  height: inherit;
+}
+header > div.right > div.menu > nav > ul {
+  width: inherit;
+  height: inherit;
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: end;
+  align-items: center;
+  gap: 32px;
+}
+header > div.right > div.menu > nav > ul > li {
+  width: fit-content;
+}
+header > div.right > div.menu > nav > ul > li > a {
+  font-family: poppins;
+  color: #bbbbcb;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+a.active {
+  color: white !important;
+}
+header > div.right > div.button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 2px solid rgb(89, 96, 128);
+  padding: 16px 0px;
+}
+header > div.right > div.button > a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: poppins;
+}

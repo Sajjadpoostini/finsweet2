@@ -1,0 +1,150 @@
+div.testinmon {
+  width: 100%;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  box-sizing: border-box;
+  background-color: #f9fbfd;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+div.testinmon > div.left {
+  width: 90%;
+  display: flex;
+  margin-left: 100px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+div.testinmon > div.left > h3 {
+  width: 100%;
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  counter-reset: #282938;
+  text-align: center;
+}
+div.testinmon > div.left > p {
+  width: 50%;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(78, 79, 80);
+}
+
+div.testinmon > div.right {
+  width: 55%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 40px;
+}
+div.testinmon > div.right > h5 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 48px;
+}
+div.testinmon > div.right > div.slider {
+  width: 100%;
+  height: 60px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #f9fbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.swiper-button-next::after {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #4f4f58;
+}
+.swiper-button-prev {
+  margin-left: 640px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.swiper-button-prev::after {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #4f4f58;
+}
+.swiper-button-prev:hover {
+  background-color: #5239fa;
+}
+.swiper-button-next:hover {
+  background-color: #5239fa;
+}
+.swiper-slide > div.img {
+  width: 800px;
+  margin-right: 560px;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.swiper-slide > div.img > div.pp {
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide > div.img > div.pp > p.ww {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
+  text-align: left;
+  color: #282938;
+}
+
+.swiper-slide > div.img > div.pp > p.ww {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #282938;
+}
+
+.swiper-slide > div.img > img {
+  border-radius: 50%;
+}

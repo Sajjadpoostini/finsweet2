@@ -1,0 +1,44 @@
+div.aboutushero {
+  margin: 100px auto;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: start;
+}
+div.aboutushero > div.left {
+  width: 50%;
+}
+div.aboutushero > div.left > p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #282938;
+  text-align: start;
+}
+div.aboutushero > div.left > h1 {
+  margin-top: 22px;
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: #282938;
+  text-align: start;
+}
+div.aboutushero > div.left > p.hero {
+  margin-top: 50px;
+  width: 90%;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+}
+div.aboutushero > div.right {
+  width: 40%;
+  margin-left: 105px;
+}
+div.aboutushero > div.right >img{
+    width: 100%;
+}

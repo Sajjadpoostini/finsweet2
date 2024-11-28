@@ -1,0 +1,72 @@
+div.ourblog {
+  margin: 128px auto;
+  width: 85%;
+}
+div.ourblog > div.top {
+  width: 100%;
+}
+div.ourblog > div.top > h2 {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+  color: #282938;
+}
+div.ourblog > div.bottem {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+div.ourblog > div.bottem > div.foto {
+  width: 30%;
+}
+div.ourblog > div.bottem > div.foto > img {
+  width: 100%;
+}
+
+div.ourblog > div.bottem > div.foto > p {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+}
+div.ourblog > div.bottem > div.foto > p.dov {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: start;
+  color: gray;
+}
+div.ourblog > div.bottem > div.foto > h6 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #282938;
+}
+div.ourblog > div.bottem > div.foto > div.arow > a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #282938;
+}
+div.ourblog > div.bottem > div.foto > div.arow {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}

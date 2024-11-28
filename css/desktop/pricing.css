@@ -1,0 +1,25 @@
+div.pricinghead {
+  width: 40%;
+  margin: 100px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.pricinghead > h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #282938;
+}
+div.pricinghead > p {
+  margin-top: 20px;
+  width: 90%;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(61, 59, 59);
+}

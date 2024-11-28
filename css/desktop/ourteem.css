@@ -1,0 +1,79 @@
+div.ourteem {
+  width: 100%;
+  height: 715px;
+  background-color: #f4f6fc;
+  margin-top: 100px;
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+div.ourteem > h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+}
+div.ourteem > div.carts {
+  margin: 50px auto;
+  width: 85%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+div.ourteem > div.carts > div.cart {
+  padding-top: 30px;
+  background-color: white;
+  box-sizing: border-box;
+  width: 22%;
+  padding-bottom: 10px;
+}
+div.ourteem > div.carts > div.cart > div.img {
+  width: 100%;
+  height: 100px;
+}
+div.ourteem > div.carts > div.cart > div.img > div.hover {
+  position: relative;
+  border-radius: 50%;
+  width: 40%;
+  background: linear-gradient(
+    348.37deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+  height: 100px;
+  z-index: 3;
+  margin-bottom: 30px;
+  bottom: 103px;
+  left: 75px;
+  display: unset;
+}
+div.ourteem > div.carts > div.cart > div.img > img:hover ~ div.hover {
+  display: block;
+}
+
+div.ourteem > div.carts > div.cart > div.img > img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  transition: 1000ms;
+}
+div.ourteem > div.carts > div.cart > h6 {
+  margin-top: 30px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #1d2130;
+}
+div.ourteem > div.carts > div.cart > p {
+  margin-top: 30px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: gray;
+}

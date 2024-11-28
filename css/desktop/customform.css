@@ -1,0 +1,146 @@
+div.custumfor {
+  margin: 10px auto;
+  width: 85%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: start;
+}
+
+div.custumfor > div.left {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-image: url("../../image/customform/contactForm.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+div.custumfor > div.left > div.head {
+  width: 100%;
+  background-color: #1c1e5380;
+  z-index: 2;
+  padding: 96px 96px 180px 90px;
+  box-sizing: border-box;
+}
+div.custumfor > div.left > div.head > h1 {
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 60px;
+  color: white;
+}
+div.custumfor > div.left > div.head > p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+}
+div.custumfor > div.right {
+  width: 50%;
+  background-color: #1c1e53;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: start;
+  h5 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+  p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 75%;
+  }
+}
+div.custumfor > div.right > form > div.titels {
+  width: 100%;
+  background-color: darkcyan;
+}
+.form {
+  width: 100%;
+}
+div.custumfor > div.right > form > div.titels > h5 {
+  width: 100%;
+}
+div.custumfor > div.right > div.input {
+  width: 100%;
+  background-color: #1c1e53;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.custumfor > div.right > div.input > input[type="text"] {
+  width: 75%;
+  padding: 17px 32px;
+  box-sizing: border-box;
+  background-color: #1c1e53;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-family: poppins;
+  margin-top: 20px;
+}
+div.custumfor > div.right > div.input > input[type="text"]:focus {
+  outline: unset;
+  color: gray;
+}
+div.custumfor > div.right > div.input > input[type="text"]::placeholder {
+  font-family: poppins;
+  color: gray;
+}
+div.custumfor > div.right > div.login {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.custumfor > div.right > div.login > input[type="submit"] {
+  font-family: manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  padding: 16px 150px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: #fcd980;
+  border: unset;
+  outline: unset;
+}
+div.custumfor > div.right > div.login > div.arow > a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: white;
+}
+div.custumfor > div.right > div.login > div.arow {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row;
+  gap: 20px;
+}
+div.custumfor > div.right > div.login > div.arow > svg {
+  margin-top: 10px;
+}

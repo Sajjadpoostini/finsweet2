@@ -1,0 +1,66 @@
+div.whowe {
+  background-color: #f4f5f5;
+  width: 85%;
+  margin: 20px auto;
+}
+div.whowe > div.bala {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 50px;
+  background-color: #f4f5f5;
+}
+div.whowe > div.bala > div.weare {
+  margin-top: 85px;
+  margin-left: 80px;
+  width: 40%;
+  text-align: start;
+}
+.who {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+div.whowe > div.bala > div.weare > h3 {
+  margin-top: 20px;
+  width: 80%;
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #282938;
+  text-align: start;
+}
+div.whowe > div.bala > div.weare > p {
+  margin-top: 10px;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  color: gray;
+  text-align: start;
+}
+.wwe {
+  font-size: 15px !important;
+  margin-top: 65px !important;
+}
+.rer {
+  width: 100% !important;
+  font-family: Poppins !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  line-height: 56px !important;
+  color: #282938 !important;
+}
+div.whowe > div.paeen {
+  margin-top: 93px;
+  width: 100%;
+}
+div.whowe > div.paeen > img {
+  width: 100%;
+}

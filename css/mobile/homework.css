@@ -1,0 +1,84 @@
+div.homewrok {
+  width: 100%;
+  background-color: #f4f6fc;
+  padding: 160px 120px 120px 160px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 142px;
+}
+div.homewrok > div.left {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+}
+div.homewrok > div.left > div.titel {
+  color: #282938;
+  font-family: poppins;
+  font-size: 32px;
+  font-weight: 600;
+}
+div.homewrok > div.left > div.lorem {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727379;
+}
+div.homewrok > div.left > div.getin {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: start;
+  color: #2405f2;
+  gap: 10px;
+}
+div.homewrok > div.left > div.getin > div.aro {
+  line-height: 30px;
+}
+
+div.homewrok > div.left > div.getin > a {
+  color: #2405f2;
+  font-family: poppins;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+div.homewrok > div.right {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+div.homewrok > div.right > div.cart {
+  width: 100%;
+  margin: 16px 0px 16px 0px;
+  text-align: center;
+}
+div.homewrok > div.right > div.cart > h5 {
+  margin-top: 16px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #282938;
+}
+
+div.homewrok > div.right > div.cart > div.p > p {
+  margin-top: 8px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #727379;
+}
+img{
+  margin: 0px auto;
+}
